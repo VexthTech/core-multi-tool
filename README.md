@@ -1,25 +1,25 @@
-# 🔴 CORE TOOL
+# 🔴 VEXLTH TOOL
 
 <p align="center">
   <strong>Advanced Network Analysis, OSINT & Cybersecurity Toolkit</strong>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Python-3.x-blue?logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/Interface-Pygame-red" />
-  <img src="https://img.shields.io/badge/Platform-Cross--Platform-lightgrey" />
-  <img src="https://img.shields.io/badge/Status-Development-orange" />
+  <img src="https://shields.io" />
+  <img src="https://shields.io" />
+  <img src="https://shields.io" />
+  <img src="https://shields.io" />
 </p>
 
 ---
 
 ## Overview
 
-**CORE TOOL** is a Python-based cybersecurity toolkit featuring a custom graphical interface inspired by the Matrix aesthetic.
+**VEXLTH TOOL** is a Python-based cybersecurity toolkit featuring a custom graphical interface inspired by the Matrix aesthetic.
 
 It combines network analysis, OSINT capabilities, security testing tools and text utilities into a single interactive dashboard.
 
-Designed with a red-on-black interface, keyboard navigation and real network operations, CORE TOOL provides a centralized environment for cybersecurity experimentation and authorized security assessments.
+Designed with a red-on-black interface, keyboard navigation and real network operations, VEXLTH TOOL provides a centralized environment for cybersecurity experimentation and authorized security assessments.
 
 ## Features
 
@@ -60,7 +60,7 @@ Designed with a red-on-black interface, keyboard navigation and real network ope
 
 ## Interface
 
-CORE TOOL features:
+VEXLTH TOOL features:
 
 - Matrix-inspired digital rain boot animation.
 - Custom red neon visual theme.
@@ -116,13 +116,13 @@ Some tools also require external software:
 Clone the repository:
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/CORE-TOOL.git
+git clone https://github.com
 ```
 
 Enter the project directory:
 
 ```bash
-cd CORE-TOOL
+cd VEXLTH-TOOL
 ```
 
 Install dependencies:
@@ -140,14 +140,14 @@ pip install pygame dnspython
 Launch the application:
 
 ```bash
-sudo python3 core_tool.py
+sudo python3 vexlth_tool.py
 ```
 
 ## API Configuration
 
 Some OSINT integrations require API keys.
 
-CORE TOOL supports the following API services:
+VEXLTH TOOL supports the following API services:
 
 | Service | Configuration key |
 |---|---|
@@ -188,7 +188,7 @@ For Have I Been Pwned, configure the `HIBP_API_KEY` environment variable.
 
 ## Security & Legal Disclaimer
 
-CORE TOOL is intended exclusively for educational purposes, cybersecurity research and authorized security assessments.
+VEXLTH TOOL is intended exclusively for educational purposes, cybersecurity research and authorized security assessments.
 
 By using this software, you agree to:
 
@@ -204,16 +204,16 @@ Certain features, including WiFi password auditing and multithreaded load genera
 
 ## Author
 
-**CORE TECH**
+**VEXLTH TECH**
 
 Cybersecurity | Network Analysis | OSINT | Python Development
 
-TikTok: CORE TECH
+TikTok: VEXLTH TECH
 
 ---
 
 <p align="center">
-  <strong>CORE TOOL — Built by CORE TECH</strong>
+  <strong>VEXLTH TOOL — Built by VEXLTH TECH</strong>
 </p>
 
 <p align="center">
