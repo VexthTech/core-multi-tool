@@ -5,12 +5,11 @@
 </p>
 
 <p align="center">
-  <img src="https://shields.io" />
-  <img src="https://shields.io" />
-  <img src="https://shields.io" />
-  <img src="https://shields.io" />
+  <img src="https://img.shields.io/badge/Python-3.x-blue?logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/Interface-Pygame-red" />
+  <img src="https://img.shields.io/badge/Platform-Cross--Platform-lightgrey" />
+  <img src="https://img.shields.io/badge/Status-Development-orange" />
 </p>
-
 ---
 
 ## Overview
