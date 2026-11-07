@@ -1,14 +1,14 @@
-# core Tool – Configuration Guide
+# vexth Tool – Configuration Guide
 
 ## 1. Custom Wordlist Directory
 
-core Tool allows users to choose their own wordlist file location.
+vexth Tool allows users to choose their own wordlist file location.
 
-The default Wi-Fi wordlist path is defined in `core_tool.py`.
+The default Wi-Fi wordlist path is defined in `vexth_toolVx.py`.
 
 ### Where to change the path
 
-Open `core_tool.py` and go to **line 159**.
+Open `vexth_toolVx.py` and go to **line 159**.
 
 You will find:
 
@@ -73,8 +73,8 @@ This path is entered directly by the user in the GUI. It does not have a fixed d
 
 ### 5. Source Code Line References
 
-The line numbers in this guide refer to the version of `liter_tool.py` supplied with this configuration guide. They may change in future versions.
+The line numbers in this guide refer to the version of `vexth_tool.py` supplied with this configuration guide. They may change in future versions.
 
 ---
 
-Liter Tool – Customizable Local File Paths
+vexth Tool – Customizable Local File Paths
