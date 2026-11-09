@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-CORE TOOL — red Matrix boot + arrow-key HUD + REAL tools + brute force + DDoS
+VEXTH TOOL — red Matrix boot + arrow-key HUD + REAL tools + brute force + DDoS
 Run: python3 "core_tool.py"
 Deps: pip install pygame requests dnspython (optional: scapy, pywifi)
 Keys: arrows move, Tab switch panel, Enter select/run, ESC back/quit
