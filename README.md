@@ -82,4 +82,139 @@ Install the main dependencies:
 
 ```bash
 pip install pygame requests dnspython
+```
 
+If it doesn't work, try:
+
+```bash
+python3 -m venv env
+```
+
+Then:
+
+```bash
+source env/bin/activate
+```
+
+After this, retry the main dependencies.
+
+Optional dependency for packet analysis:
+
+```bash
+pip install scapy
+```
+
+Some tools also require external software:
+
+- **Aircrack-ng** – WiFi security auditing.
+- **Hashcat** – Password hash auditing.
+- **cap2hccapx** – Optional capture conversion utility.
+
+## Installation
+
+Clone the repository:
+
+```bash
+git clone [https://github.com](https://github.com)
+```
+
+Enter the project directory:
+
+```bash
+cd VEXTH-TOOL
+```
+
+Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+If a requirements file is not provided, install the dependencies manually:
+
+```bash
+pip install pygame dnspython
+```
+
+Launch the application:
+
+```bash
+sudo python3 vexth_tool.py
+```
+
+## API Configuration
+
+Some OSINT integrations require API keys.
+
+VEXTH TOOL supports the following API services:
+
+| Service | Configuration key |
+|---|---|
+| VirusTotal | `virustotal` |
+| Abstract API | `abstract` |
+| AbuseIPDB | `abuseipdb` |
+| URLScan | `urlscan` |
+| NumVerify | `numverify` |
+| Have I Been Pwned | `HIBP_API_KEY` environment variable |
+
+For the first five services, create an `api_keys.json` file in the same directory as the Python script:
+
+```json
+{
+    "virustotal": "YOUR_API_KEY",
+    "abstract": "YOUR_API_KEY",
+    "abuseipdb": "YOUR_API_KEY",
+    "urlscan": "YOUR_API_KEY",
+    "numverify": "YOUR_API_KEY"
+}
+```
+
+For Have I Been Pwned, configure the `HIBP_API_KEY` environment variable.
+
+**Important:** Never upload API keys, credentials or other sensitive information to a public GitHub repository.
+
+## Controls
+
+| Key | Action |
+|---|---|
+| ↑ / ↓ | Navigate menus and results |
+| TAB | Switch dashboard panels / input fields |
+| ENTER | Select and execute tools |
+| BACKSPACE | Delete input characters |
+| ESC | Go back or exit |
+| Q | Quit / return to dashboard |
+| SPACE | Skip to the intro credit screen |
+
+## Security & Legal Disclaimer
+
+VEXTH TOOL is intended exclusively for educational purposes, cybersecurity research and authorized security assessments.
+
+By using this software, you agree to:
+
+- Only scan networks and systems you own or have explicit permission to test.
+- Obtain authorization before performing security assessments.
+- Never use the software to disrupt services or interfere with third-party infrastructure.
+- Respect applicable laws, regulations and privacy requirements.
+- Protect API keys, credentials and sensitive information.
+
+Certain features, including WiFi password auditing and multithreaded load generation, can cause unauthorized access attempts or service disruption if misused.
+
+**The author and contributors assume no responsibility for misuse, damage or illegal activities performed with this software.**
+
+## Author
+
+**VEXTH TECH**
+
+Cybersecurity | Network Analysis | OSINT | Python Development
+
+TikTok: VEXTH TECH
+
+---
+
+<p align="center">
+  <strong>VEXTH TOOL — Built by VEXTH TECH</strong>
+</p>
+
+<p align="center">
+  <i>Explore. Analyze. Understand.</i>
+</p>
